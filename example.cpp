@@ -48,8 +48,8 @@ int main()
     br.fetch_forms(false);
     br.fetch_links(true);
     //open the page with the new links
-    br.open("http://forums.unixhub.net/member.php","username=user&password=password&remember=yes&submit=Login&action=do_login");
-    br.open("http://forums.unixhub.net/search.php?action=getdaily");
+    br.open("http://www.cartoonextra.co/family-guy-season-9-episode-13","username=user&password=password&remember=yes&submit=Login&action=do_login");
+    br.open("http://www.cartoonextra.co/family-guy-season-9-episode-13");
     //check if there's a new post
     bool new_post = false;
     for(int i=0;i<br.links.size();i++)
